@@ -9,8 +9,9 @@ const App = () => {
   }
   return (
     <div>
+        <label>Enter your name:</label>
         <input onChange={showName} type="text"></input>
-        <p>{name}</p>
+        <p>Hello {name}!</p>
     </div>
   )
 }
